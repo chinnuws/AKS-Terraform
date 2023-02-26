@@ -12,19 +12,19 @@ subnetcidr = ["10.0.0.0/25"]
 
 keyvault_rg = "aksdemo-rg"
 
-keyvault_name = "aksdemocluster-kv"
+keyvault_name = "aksclusterkeyvault99"
 
-azure_region = "australiaeast"
+azure_region = "eastus"
 
-resource_group = "aksdemocluster-rg"
+resource_group = "aksforuse-rg"
 
-cluster_name = "aksdemocluster"
+cluster_name = "aksforuse"
 
 dns_name = "aksdemocluster"
 
 admin_username = "aksuser"
 
-kubernetes_version = "1.21.7"
+kubernetes_version = "1.23"
 
 agent_pools = {
       name            = "pool1"
