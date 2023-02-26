@@ -20,7 +20,7 @@ resource_group = "aksforuse-rg"
 
 cluster_name = "aksforuse"
 
-dns_name = "aksdemocluster"
+dns_name = "aksforuse"
 
 admin_username = "aksuser"
 
